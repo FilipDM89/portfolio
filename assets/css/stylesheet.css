@@ -1,0 +1,145 @@
+/* Main layout */
+body {
+    background: rgb(251,255,221);
+    background: linear-gradient(90deg, rgba(251,255,221,1) 36%, rgba(84,251,238,1) 76%);
+    padding: 0%;
+    margin: 0%;
+}
+
+main {
+    height:80%;
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    margin: 0;
+    margin-top: 10%;
+}
+
+
+/* navbar layout */
+
+#navbar {
+    display: -webkit-inline-flex;
+    list-style-type: none;
+    background: teal;
+    color: white;
+    width: 100%;
+    height: 50px;
+    padding: 0%;
+}
+
+.navitem {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.navitem:hover {
+    background-color: rgb(255, 248, 236);
+    color: teal;
+    border: 1px solid teal;
+}
+
+
+/* Information containers */
+
+.info-box {
+    border: 1px solid black;
+    border-radius: 1%;
+    background-color: rgb(255, 248, 236);
+    padding: 2%;
+    box-shadow: 3px 2px 2px #303030;
+    margin-bottom: 2%;
+    height: 550px;
+}
+
+#personal-info strong {
+    color: teal;
+}
+
+#icons {
+    text-align: center;
+}
+
+#profilepic {
+    border-radius: 50%;
+    border: 2px solid teal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 5%;
+}
+
+.textbox {
+    padding-bottom: 2%;
+    height: 90%;
+    margin-top: 1%;
+}
+
+article {
+    height: 100%;
+    margin: 0%;
+    padding: 2%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Projecten tab */
+
+.project {
+    background-color: teal;
+    padding: 0%;
+    margin: 2%;
+    color: white;
+}
+
+
+.projectlink {
+    color: white;
+    text-decoration: none;
+}
+
+.projectlink:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.projectname {
+    display: inline-block;
+    padding: 1%;
+}
+
+.projectmenu{
+    padding: 1%;
+}
+
+.info-item {
+    width: 100%;
+    background-color:  rgb(255, 248, 236);
+    color: black;
+    border: 2px dashed teal;
+    border-top: none;
+    padding: 1%;
+}
+
+.info {
+    cursor: pointer;
+}
+
+/* kennis tab */
+
+.overviewlanguages {
+    text-align: center;
+}
+
+.overviewlanguages h5 {
+    display: inline-block;
+}
+
