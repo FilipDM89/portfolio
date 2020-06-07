@@ -17,6 +17,18 @@ main {
     margin-top: 10%;
 }
 
+.generischelink:link,
+.generischelink:visited {
+    text-decoration: none;
+    color: teal;
+}
+
+.generischelink:hover,
+.generischelink:active {
+    text-decoration: underline;
+    color: teal;
+}
+
 
 /* navbar layout */
 
@@ -92,6 +104,10 @@ article {
 }
 
 /* Projecten tab */
+
+#projecten {
+    overflow-y: auto;
+}
 
 .project {
     background-color: teal;
